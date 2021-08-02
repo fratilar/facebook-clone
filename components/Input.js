@@ -86,7 +86,7 @@ function Input() {
                   onClick={removePhoto}
                   className="cursor-pointer transform filter hover:brightness-110 hover:scale-105 transition duration-150 ml-2"
                >
-                  <Image src={imageToPost} className="w-10 object-contain" alt="" />
+                  <Image src={imageToPost} width={40} height={20} className="object-contain" alt="" />
                   <p className="text-xs text-red-500 font-semibold text-center">Remove</p>
                </div>
             )}
