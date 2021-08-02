@@ -17,7 +17,7 @@ function StoryCard({ users }) {
                      layout="fill"
                      className="object-cover cursor-pointer hover:scale-105 transition duration-200 ease-in filter brightness-90 hover:brightness-75"
                   />
-                  <img
+                  <Image
                      className="absolute border-4 border-blue-500 top-3 left-3 rounded-full z-30 hidden lg:inline"
                      src={profile}
                      width={40}
